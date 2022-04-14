@@ -1,6 +1,6 @@
 
-a=Map("zerotier",translate("BackOne"),translate("BackOne is cross-platform and easy to use virtual LAN"))
-a:section(SimpleSection).template  = "zerotier/zerotier_status"
+a=Map("backone",translate("BackOne"),translate("BackOne is cross-platform and easy to use virtual LAN"))
+a:section(SimpleSection).template  = "backone/zerotier_status"
 
 t=a:section(NamedSection,"main_config","zerotier")
 t.anonymous=true
